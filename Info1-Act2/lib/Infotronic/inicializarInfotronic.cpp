@@ -4,8 +4,7 @@
 
 void inicializarInfotronic()
 {
-    iniciar_leds();
-
+    iniciar_pines();
     ClrPin(LED_PIN0);
     ClrPin(LED_PIN1);
     ClrPin(LED_PIN2);

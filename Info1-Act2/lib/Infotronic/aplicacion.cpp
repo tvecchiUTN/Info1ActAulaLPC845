@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "aplicacion.h"
 
-void iniciar_leds()
+void iniciar_pines()
 {
     pinMode(LED_PIN0, OUTPUT);
     pinMode(LED_PIN1, OUTPUT);
@@ -11,6 +11,8 @@ void iniciar_leds()
     pinMode(LED_PIN5, OUTPUT);
     pinMode(LED_PIN6, OUTPUT);
     pinMode(LED_PIN7, OUTPUT);
+
+    pinMode(PULSADOR_PIN0, INPUT);
 }
 void SetPin(int led)
 {
